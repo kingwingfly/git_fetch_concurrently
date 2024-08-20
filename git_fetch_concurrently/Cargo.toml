@@ -1,5 +1,5 @@
 [package]
-name = "git_fetch_concurrenty"
+name = "git_fetch_concurrently"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true

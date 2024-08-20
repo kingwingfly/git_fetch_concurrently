@@ -9,10 +9,6 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 -->
 
 ## [Unreleased]
-## [0.0.2] - 2024-08-20
-
-- fix: repository spell mistake
-
 ## [0.0.1] - 2024-08-20
 
 - MVP

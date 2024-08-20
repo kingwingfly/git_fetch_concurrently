@@ -19,5 +19,5 @@ jobs:
         run: .github/scripts/test.sh
       - name: login to crates.io
         run: cargo login ${{ secrets.CRATESIO }}
-      - name: publish git_fetch_concurrenty
-        run: .github/scripts/publish.sh git_fetch_concurrenty
+      - name: publish git_fetch_concurrently
+        run: .github/scripts/publish.sh git_fetch_concurrently

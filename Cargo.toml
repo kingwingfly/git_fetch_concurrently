@@ -1,9 +1,9 @@
 [workspace]
-members = ["git_fetch_concurrenty"]
+members = ["git_fetch_concurrently"]
 resolver = "2"
 
 [workspace.package]
-version = "0.0.2"
+version = "0.0.1"
 authors = ["Louis <836250617@qq.com>"]
 description = ""
 license = "MIT"
@@ -11,7 +11,7 @@ edition = "2021"
 repository = "https://github.com/kingwingfly/git_fetch_concurrently"
 
 [workspace.dependencies]
-git_fetch_concurrenty = { path = "git_fetch_concurrenty" }
+git_fetch_concurrently = { path = "git_fetch_concurrently" }
 # async
 tokio = { version = "1", default-features = false }
 tokio-stream = { version = "0.1", default-features = false }
