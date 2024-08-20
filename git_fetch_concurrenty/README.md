@@ -1,6 +1,8 @@
 <a name="readme-top"></a>
 
-
+<!--
+*** This README is modified from https://github.com/othneildrew/Best-README-Template
+-->
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -13,23 +15,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kingwingfly/repo_name">
+  <a href="https://github.com/kingwingfly/git_fetch_concurrently">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">git_fetch_concurrently</h3>
 
   <p align="center">
-    project_description
+    Do `git fetch -p && git gc` in each sub directory concurrently.
     <br />
-    <a href="https://github.com/kingwingfly/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kingwingfly/git_fetch_concurrently"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kingwingfly/repo_name">View Demo</a>
+    <a href="https://github.com/kingwingfly/git_fetch_concurrently">View Demo</a>
     ·
-    <a href="https://github.com/kingwingfly/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/kingwingfly/git_fetch_concurrently/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/kingwingfly/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/kingwingfly/git_fetch_concurrently/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -68,7 +70,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Change these: `repo_name`, `project_title`, `project_description`, `documentation_link`
+Do `git fetch -p && git gc` in each sub directory concurrently.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +98,7 @@ Change these: `repo_name`, `project_title`, `project_description`, `documentatio
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kingwingfly/repo_name.git
+   git clone https://github.com/kingwingfly/git_fetch_concurrently.git
    ```
 2. Compilation
    ```sh
@@ -110,9 +112,9 @@ Change these: `repo_name`, `project_title`, `project_description`, `documentatio
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](documentation_link)_
+```sh
+$ git_fetch_concurrently
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +125,7 @@ _For more examples, please refer to the [Documentation](documentation_link)_
 
 - [ ] Feature
 
-See the [open issues](https://github.com/kingwingfly/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/kingwingfly/git_fetch_concurrently/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,7 +163,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Louis - 836250617@qq.com
 
-Project Link: [https://github.com/kingwingfly/repo_name](https://github.com/kingwingfly/repo_name)
+Project Link: [https://github.com/kingwingfly/git_fetch_concurrently](https://github.com/kingwingfly/git_fetch_concurrently)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,16 +180,16 @@ Project Link: [https://github.com/kingwingfly/repo_name](https://github.com/king
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kingwingfly/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/kingwingfly/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kingwingfly/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/kingwingfly/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/kingwingfly/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/kingwingfly/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kingwingfly/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/kingwingfly/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/kingwingfly/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/kingwingfly/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kingwingfly/git_fetch_concurrently.svg?style=for-the-badge
+[contributors-url]: https://github.com/kingwingfly/git_fetch_concurrently/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kingwingfly/git_fetch_concurrently.svg?style=for-the-badge
+[forks-url]: https://github.com/kingwingfly/git_fetch_concurrently/network/members
+[stars-shield]: https://img.shields.io/github/stars/kingwingfly/git_fetch_concurrently.svg?style=for-the-badge
+[stars-url]: https://github.com/kingwingfly/git_fetch_concurrently/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kingwingfly/git_fetch_concurrently.svg?style=for-the-badge
+[issues-url]: https://github.com/kingwingfly/git_fetch_concurrently/issues
+[license-shield]: https://img.shields.io/github/license/kingwingfly/git_fetch_concurrently.svg?style=for-the-badge
+[license-url]: https://github.com/kingwingfly/git_fetch_concurrently/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [Rust]: https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=Rust&logoColor=orange
 [Rust-url]: https://www.rust-lang.org

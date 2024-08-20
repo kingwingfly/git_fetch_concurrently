@@ -1,5 +1,5 @@
 [workspace]
-members = ["xxx_core"]
+members = ["git_fetch_concurrenty"]
 resolver = "2"
 
 [workspace.package]
@@ -8,13 +8,13 @@ authors = ["Louis <836250617@qq.com>"]
 description = ""
 license = "MIT"
 edition = "2021"
-repository = "https://github.com/kingwingfly/xxx"
-documentation = "https://docs.rs/gpt_core/xxx"
+repository = "https://github.com/kingwingfly/git_fetch_concurrenty"
 
 [workspace.dependencies]
-xxx_core = { path = "xxx_core" }
+git_fetch_concurrenty = { path = "git_fetch_concurrenty" }
 # async
 tokio = { version = "1", default-features = false }
+tokio-stream = { version = "0.1", default-features = false }
 
 [profile.release]
 lto = "fat"
