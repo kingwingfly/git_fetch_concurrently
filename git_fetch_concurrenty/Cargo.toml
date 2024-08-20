@@ -5,7 +5,7 @@ edition.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
-description = ""
+description = "Do `git fetch -p && git gc` in each sub directory concurrently."
 
 [package.metadata.docs.rs]
 all-features = true
