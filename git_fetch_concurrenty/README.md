@@ -89,6 +89,13 @@ Do `git fetch -p && git gc` in each sub directory concurrently.
 
 ### Prerequisites
 
+Download in [release page](https://github.com/kingwingfly/git_fetch_concurrently/releases) or
+```sh
+cargo install git_fetch_concurrently
+```
+
+Or you can compile yourself.
+
 * Install Rust
   ```sh
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
