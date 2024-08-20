@@ -3,12 +3,12 @@ members = ["git_fetch_concurrenty"]
 resolver = "2"
 
 [workspace.package]
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Louis <836250617@qq.com>"]
 description = ""
 license = "MIT"
 edition = "2021"
-repository = "https://github.com/kingwingfly/git_fetch_concurrenty"
+repository = "https://github.com/kingwingfly/git_fetch_concurrently"
 
 [workspace.dependencies]
 git_fetch_concurrenty = { path = "git_fetch_concurrenty" }

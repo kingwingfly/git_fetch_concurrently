@@ -197,6 +197,6 @@ Project Link: [https://github.com/kingwingfly/git_fetch_concurrently](https://gi
 [issues-url]: https://github.com/kingwingfly/git_fetch_concurrently/issues
 [license-shield]: https://img.shields.io/github/license/kingwingfly/git_fetch_concurrently.svg?style=for-the-badge
 [license-url]: https://github.com/kingwingfly/git_fetch_concurrently/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/kingwingfly/git_fetch_concurrently/blob/dev/images/screenshot.png
 [Rust]: https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=Rust&logoColor=orange
 [Rust-url]: https://www.rust-lang.org
