@@ -72,6 +72,8 @@
 
 Do `git fetch -p && git gc` in each sub directory concurrently.
 
+Now, please use [asyncrun](https://crates.io/crates/asyncrun) instead. `asyncrun -e .git -- "git fetch -p" "git gc"`.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

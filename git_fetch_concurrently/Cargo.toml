@@ -15,7 +15,6 @@ rustdoc-args = ["--cfg", "docsrs"]
 anyhow = "1.0.86"
 tokio = { workspace = true, features = [
     "rt-multi-thread",
-    "signal",
     "fs",
     "process",
     "macros",
